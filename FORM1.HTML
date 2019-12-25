@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container mb-3">
+        <div class="card p-5">
+            <h3> form-1</h3>
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="email">email:</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="enter email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">password:</label>
+                    <input type="password" name="pwd" id="pwd" class="form-control" placeholder="enter password">
+                </div>
+                <div class="form-group form-check">
+                    <label for="" class="form-check-label">
+                <input type="checkbox" name="checkbox" id="chekbox" class="form-check-input"> remember me</label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optradio">Option 1
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optradio">Option 2
+                    </label>
+                </div>
+                <div class="form-check-inline disabled">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="optradio" disabled>Option 3
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="sel2">Mutiple select list (hold shift to select more than one):</label>
+                    <select multiple class="form-control" id="sel2" name="sellist2">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+                </div>
+                <div class="form-group">
+                    <input type="range" name="ir1" id="ir1" class="form-control-range">
+                </div>
+                <div class="form-group">
+                    <input type="file" name="" id="" class="form-control-file">
+                </div>
+                <button type="submit" class="btn btn-primary">submit</button>
+        </div>
+
+        </form>
+    </div>
+    </div>
+    <div class="container mt-5">
+
+        <dic class="card p-5">
+            <h3>Input-group</h3>
+            <form action="" method="post" class="">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">defualt</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="input-group mb-3 input-group-sm">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Small</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="input-group mb-3 input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Small</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+            </form>
+        </dic>
+    </div>
+</body>
+
+</html>
